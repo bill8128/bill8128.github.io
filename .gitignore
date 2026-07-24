@@ -1,0 +1,27 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# Build output
+_site/
+.sass-cache/
+.jekyll-metadata
+
+# Bundler
+/vendor/bundle/
+vendor/
+.bundle/
+Gemfile.lock
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
