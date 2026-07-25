@@ -1,0 +1,79 @@
+---
+layout: single
+---
+
+<article class="painting">
+
+  <figure>
+
+    <a class="glightbox"
+       href="{{ page.image }}"
+       data-gallery="paintings">
+
+      <img src="{{ page.image }}"
+           alt="{{ page.title }}">
+
+    </a>
+
+  </figure>
+
+  <h1>{{ page.title }}</h1>
+
+  <p>
+
+    {{ page.medium }}<br>
+
+    {{ page.dimensions }}<br>
+
+    {{ page.year }}
+
+  </p>
+
+  {{ content }}
+  
+<hr>
+
+<hr>
+
+<nav class="painting-nav">
+
+{% assign paintings = site.paintings | sort: "title" %}
+
+{% for painting in paintings %}
+
+  {% if painting.url == page.url %}
+
+    {% assign current_index = forloop.index0 %}
+
+  {% endif %}
+
+{% endfor %}
+
+
+{% if current_index > 0 %}
+
+  {% assign previous_index = current_index | minus: 1 %}
+  {% assign previous = paintings[previous_index] %}
+
+  <a href="{{ previous.url }}">← Previous</a>
+
+{% endif %}
+
+
+<a href="/gallery/">Gallery</a>
+
+
+{% assign last_index = paintings.size | minus: 1 %}
+
+{% if current_index < last_index %}
+
+  {% assign next_index = current_index | plus: 1 %}
+  {% assign next = paintings[next_index] %}
+
+  <a href="{{ next.url }}">Next →</a>
+
+{% endif %}
+
+</nav>
+
+</article>

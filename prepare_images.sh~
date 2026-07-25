@@ -1,0 +1,75 @@
+from pathlib import Path
+from PIL import Image, ImageOps
+import re
+
+SOURCE = Path("originals")
+OUTPUT = Path("assets/images/paintings")
+THUMBS = OUTPUT / "thumbs"
+
+OUTPUT.mkdir(parents=True, exist_ok=True)
+THUMBS.mkdir(parents=True, exist_ok=True)
+
+DISPLAY_SIZE = 2000
+THUMB_SIZE = 500
+
+
+def clean_name(name):
+    name = name.lower()
+    name = re.sub(r"[^a-z0-9]+", "-", name)
+    return name.strip("-")
+
+
+for file in SOURCE.iterdir():
+
+    if file.suffix.lower() not in [".jpg", ".jpeg", ".png"]:
+        continue
+
+    name = clean_name(file.stem)
+
+    display_file = OUTPUT / f"{name}.jpg"
+    thumb_file = THUMBS / f"{name}-thumb.jpg"
+
+    img = Image.open(file).convert("RGB")
+
+
+    # display image
+
+    if not display_file.exists():
+
+        display = img.copy()
+        display.thumbnail((DISPLAY_SIZE, DISPLAY_SIZE))
+        display.save(
+            display_file,
+            quality=92,
+            optimize=True
+        )
+
+
+    # thumbnail - preserve whole painting
+
+    if not thumb_file.exists():
+
+        thumb = ImageOps.contain(
+            img,
+            (THUMB_SIZE, THUMB_SIZE)
+        )
+
+        canvas = Image.new(
+            "RGB",
+            (THUMB_SIZE, THUMB_SIZE),
+            "white"
+        )
+
+        x = (THUMB_SIZE - thumb.width) // 2
+        y = (THUMB_SIZE - thumb.height) // 2
+
+        canvas.paste(thumb, (x, y))
+
+        canvas.save(
+            thumb_file,
+            quality=90,
+            optimize=True
+        )
+
+
+print("Images prepared.")

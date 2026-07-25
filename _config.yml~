@@ -1,0 +1,22 @@
+title: Portfolio of paintings by a beginner
+description: My GitHub Pages site
+
+url: "https://bill8128.github.io"
+baseurl: ""
+
+remote_theme: mmistakes/minimal-mistakes
+
+plugins:
+  - jekyll-include-cache
+  
+collections:
+  paintings:
+    output: true
+    permalink: /paintings/:name/
+    
+defaults:
+  - scope:
+      path: ""
+      type: paintings
+    values:
+      layout: painting
