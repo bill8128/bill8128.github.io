@@ -1,21 +1,14 @@
-# Build output
-_site/
-.sass-cache/
-.jekyll-metadata
-.jekyll-cache/
-
-# Bundler
-/vendor/bundle/
-vendor/
-.bundle/
-Gemfile.lock
-
-# Editor & OS files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-Thumbs.db
+# Private high-resolution originals
 originals/
+
+# Jekyll generated files
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Ruby local files
+.bundle/
+
+# Temporary files
+*.swp
+*~
