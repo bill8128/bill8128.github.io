@@ -1,0 +1,21 @@
+---
+layout: single
+title: Gallery
+permalink: /gallery/
+---
+
+TEST
+
+<h2>Painting count:</h2>
+
+<p>
+{{ site.paintings | size }}
+</p>
+
+{% for painting in site.paintings %}
+
+<p>
+{{ painting.title }}
+</p>
+
+{% endfor %}
