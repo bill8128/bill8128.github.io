@@ -1,48 +1,48 @@
 var store = [{
-        "title": "chaffinch",
-        "excerpt":"Write a description of the painting here.  ","categories": [],
+        "title": "Chaffinch",
+        "excerpt":"A first attempt at a chaffinch  ","categories": ["birds"],
         "tags": [],
         "url": "/paintings/chaffinch/",
         "teaser": null
       },{
-        "title": "cow-parsley",
-        "excerpt":"Write a description of the painting here.  ","categories": [],
+        "title": "Cow Parsley at Full Moon",
+        "excerpt":"Cow parsley illuminated by a full moon.  ","categories": ["flowers"],
         "tags": [],
         "url": "/paintings/cow-parsley/",
         "teaser": null
       },{
-        "title": "goldcrest",
-        "excerpt":"Write a description of the painting here.  ","categories": [],
+        "title": "Goldcrest",
+        "excerpt":"Write a description of the painting here.  ","categories": ["birds"],
         "tags": [],
         "url": "/paintings/goldcrest/",
         "teaser": null
       },{
         "title": "Humming Bird",
-        "excerpt":"Write a description of the painting here.  ","categories": [],
+        "excerpt":"Write a description of the painting here.  ","categories": ["birds"],
         "tags": [],
         "url": "/paintings/humming-bird/",
         "teaser": null
       },{
-        "title": "lakeside",
-        "excerpt":"Write a description of the painting here.  ","categories": [],
+        "title": "Lakeside at Dusk",
+        "excerpt":"A lakeside at dusk  ","categories": ["landscapes"],
         "tags": [],
         "url": "/paintings/lakeside/",
         "teaser": null
       },{
-        "title": "rydal-hall-gardens",
-        "excerpt":"Write a description of the painting here.  ","categories": [],
+        "title": "Rydal Hall Gardens",
+        "excerpt":"Wild garlic growing in the grounds of Rydal Hall in the Lake District  ","categories": ["landscapes"],
         "tags": [],
         "url": "/paintings/rydal-hall-gardens/",
         "teaser": null
       },{
         "title": "Vase of Flowers",
-        "excerpt":" ","categories": [],
+        "excerpt":" ","categories": ["flowers"],
         "tags": [],
         "url": "/paintings/vase-of-flowers/",
         "teaser": null
       },{
         "title": "Window Box",
-        "excerpt":" ","categories": [],
+        "excerpt":" ","categories": ["flowers"],
         "tags": [],
         "url": "/paintings/window-box/",
         "teaser": null

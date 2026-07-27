@@ -6,6 +6,7 @@ date_added: 2026-07-26
 year: 2026
 medium: Watercolour
 dimensions: Sketchbook
+category: landscapes
 ---
 
 Wild garlic growing in the grounds of Rydal Hall in the Lake District

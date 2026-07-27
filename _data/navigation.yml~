@@ -1,15 +1,9 @@
 main:
-  - title: Home
-    url: /
-
   - title: Gallery
     url: /gallery/
 
   - title: About
     url: /about/
-
-  - title: Exhibitions
-    url: /exhibitions/
 
   - title: Contact
     url: /contact/

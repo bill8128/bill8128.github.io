@@ -13,6 +13,7 @@ permalink: /gallery/
 {% assign filename = painting.image | replace: ".jpg", "" %}
 {% assign thumbname = filename | append: "-thumb.jpg" %}
 
+
 <div class="painting-card">
 
 <a href="{{ painting.url }}">
