@@ -1,11 +1,11 @@
 ---
-title: rydal-hall-gardens
+title: Rydal Hall Gardens
 layout: painting
 image: rydal-hall-gardens.jpg
 date_added: 2026-07-26
-year:
-medium:
-dimensions:
+year: 2026
+medium: Watercolour
+dimensions: Sketchbook
 ---
 
-Write a description of the painting here.
+Wild garlic growing in the grounds of Rydal Hall in the Lake District
