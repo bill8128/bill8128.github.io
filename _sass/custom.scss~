@@ -191,9 +191,9 @@
 }
 
 
-a img:hover,
-a:hover img {
+.painting-card:hover img,
+.category-card:hover img {
+    transform: none !important;
     box-shadow: none !important;
     border: none !important;
-    transform: none !important;
 }

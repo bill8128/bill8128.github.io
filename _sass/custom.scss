@@ -197,3 +197,10 @@
     box-shadow: none !important;
     border: none !important;
 }
+
+
+/* Hide Minimal Mistakes post pagination */
+
+.pagination {
+    display: none;
+}

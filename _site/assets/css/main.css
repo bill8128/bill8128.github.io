@@ -1362,3 +1362,6 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .painting-nav a:hover { text-decoration: underline; }
 
 .painting-card:hover img, .category-card:hover img { transform: none !important; box-shadow: none !important; border: none !important; }
+
+/* Hide Minimal Mistakes post pagination */
+.pagination { display: none; }

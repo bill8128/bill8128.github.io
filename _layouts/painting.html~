@@ -4,18 +4,18 @@ layout: single
 
 <article class="painting">
 
-  <figure>
+<figure>
 
-    <a class="glightbox"
-       href="{{ page.image }}"
-       data-gallery="paintings">
+<a class="glightbox"
+   href="/assets/images/paintings/{{ page.image }}"
+   data-gallery="paintings">
 
-      <img src="{{ page.image }}"
-           alt="{{ page.title }}">
+<img src="/assets/images/paintings/{{ page.image }}"
+     alt="{{ page.title }}">
 
-    </a>
+</a>
 
-  </figure>
+</figure>
 
   <h1>{{ page.title }}</h1>
 
@@ -75,5 +75,7 @@ layout: single
 {% endif %}
 
 </nav>
+
+
 
 </article>
