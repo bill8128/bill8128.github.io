@@ -1,3 +1,9 @@
 main:
-  - title: "Gallery"
-    url: /gallery/
+  - title: "Landscapes"
+    url: /gallery/landscapes/
+
+  - title: "Flowers"
+    url: /gallery/flowers/
+
+  - title: "Birds & Insects"
+    url: /gallery/birds/

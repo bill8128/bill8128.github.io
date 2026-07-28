@@ -1,9 +1,12 @@
 main:
-  - title: Gallery
-    url: /gallery/
+  - title: "Home"
+    url: /
 
-  - title: About
-    url: /about/
+  - title: "Landscapes"
+    url: /gallery/landscapes/
 
-  - title: Contact
-    url: /contact/
+  - title: "Flowers"
+    url: /gallery/flowers/
+
+  - title: "Birds & Insects"
+    url: /gallery/birds/

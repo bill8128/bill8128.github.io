@@ -1,39 +1,35 @@
 ---
 layout: splash
-title: "Bill's Paintings"
+title: "Billiam's"
 
 header:
   overlay_image: /assets/images/site/header.jpg
   overlay_filter: 0.45
 
 excerpt: >
-  Original landscape and wildlife paintings inspired by the British countryside.
+  Landscape, flower and wildlife paintings inspired by the British countryside.
 ---
 
-## Recent Paintings
+Choose a collection to explore.
 
-<div class="painting-grid">
+<div class="gallery-categories">
 
-{% assign sorted_paintings = site.paintings | sort: "date_added" | reverse %}
-
-{% for painting in sorted_paintings limit:3 %}
-
-{% assign filename = painting.image | replace: ".jpg", "" %}
-{% assign thumbname = filename | append: "-thumb.jpg" %}
-
-<div class="painting-card">
-
-<a href="{{ painting.url }}">
-
-<img src="/assets/images/paintings/thumbs/{{ thumbname }}"
-     alt="{{ painting.title }}">
-
+<a class="category-card" href="/gallery/landscapes/">
+  <img src="/assets/images/site/category-landscapes.jpg"
+       alt="Landscapes">
+  <h2>Landscapes</h2>
 </a>
 
-<h3>{{ painting.title }}</h3>
+<a class="category-card" href="/gallery/flowers/">
+  <img src="/assets/images/site/category-flowers.jpg"
+       alt="Flowers">
+  <h2>Flowers</h2>
+</a>
 
-</div>
-
-{% endfor %}
+<a class="category-card" href="/gallery/birds/">
+  <img src="/assets/images/site/category-birds.jpg"
+       alt="Birds &amp; Insects">
+  <h2>Birds &amp; Insects</h2>
+</a>
 
 </div>

@@ -24,7 +24,7 @@ Bird and insect paintings from the garden and countryside.
   <h3>{{ painting.title }}</h3>
 
   {% if painting.year %}
-  <p class="painting-year">Painted {{ painting.year }}</p>
+  <p class="painting-year">{{ painting.year }}</p>
   {% endif %}
 
 </div>
