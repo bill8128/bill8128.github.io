@@ -14,12 +14,10 @@ Paintings inspired by the British countryside.
 
 {% assign thumb = painting.image | replace: ".jpg", "-thumb.jpg" %}
 
-<div class="painting-card">
+<a class="painting-card" href="{{ painting.url }}">
 
-  <a href="{{ painting.url }}">
-    <img src="/assets/images/paintings/thumbs/{{ thumb }}"
-         alt="{{ painting.title }}">
-  </a>
+  <img src="/assets/images/paintings/thumbs/{{ thumb }}"
+       alt="{{ painting.title }}">
 
   <h3>{{ painting.title }}</h3>
 
@@ -27,8 +25,7 @@ Paintings inspired by the British countryside.
   <p class="painting-year">{{ painting.year }}</p>
   {% endif %}
 
-</div>
-
+</a>
 {% endfor %}
 
 </div>

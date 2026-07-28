@@ -14,12 +14,10 @@ Paintings of flowers and gardens.
 
 {% assign thumb = painting.image | replace: ".jpg", "-thumb.jpg" %}
 
-<div class="painting-card">
+<a class="painting-card" href="{{ painting.url }}">
 
-  <a href="{{ painting.url }}">
-    <img src="/assets/images/paintings/thumbs/{{ thumb }}"
-         alt="{{ painting.title }}">
-  </a>
+  <img src="/assets/images/paintings/thumbs/{{ thumb }}"
+       alt="{{ painting.title }}">
 
   <h3>{{ painting.title }}</h3>
 
@@ -27,7 +25,7 @@ Paintings of flowers and gardens.
   <p class="painting-year">{{ painting.year }}</p>
   {% endif %}
 
-</div>
+</a>
 
 {% endfor %}
 
