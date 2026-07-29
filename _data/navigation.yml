@@ -1,4 +1,8 @@
 main:
+
+  - title: "Gallery"
+    url: /gallery/
+    
   - title: "Landscapes"
     url: /gallery/landscapes/
 
