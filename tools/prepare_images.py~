@@ -30,7 +30,7 @@ def create_markdown(name, title):
     if md_file.exists():
         return
 
-content = f"""---
+    content = f"""---
 title: {title}
 layout: painting
 image: {name}.jpg

@@ -36,8 +36,9 @@ layout: painting
 image: {name}.jpg
 date_added: {date.today()}
 year:
-medium:
-dimensions:
+medium: Watercolour
+dimensions: 
+category: flowers
 ---
 
 Write a description of the painting here.

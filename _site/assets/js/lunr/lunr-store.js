@@ -23,6 +23,12 @@ var store = [{
         "url": "/paintings/humming-bird/",
         "teaser": null
       },{
+        "title": "Hydrangeas",
+        "excerpt":"A small birthday card  ","categories": ["flowers"],
+        "tags": [],
+        "url": "/paintings/hydrangeas/",
+        "teaser": null
+      },{
         "title": "Lakeside at Dusk",
         "excerpt":"A lakeside at dusk  ","categories": ["landscapes"],
         "tags": [],
@@ -35,6 +41,12 @@ var store = [{
         "url": "/paintings/rydal-hall-gardens/",
         "teaser": null
       },{
+        "title": "Sweet Peas",
+        "excerpt":"A small card  ","categories": ["flowers"],
+        "tags": [],
+        "url": "/paintings/sweet-peas/",
+        "teaser": null
+      },{
         "title": "Vase of Flowers",
         "excerpt":" ","categories": ["flowers"],
         "tags": [],
@@ -45,5 +57,11 @@ var store = [{
         "excerpt":" ","categories": ["flowers"],
         "tags": [],
         "url": "/paintings/window-box/",
+        "teaser": null
+      },{
+        "title": "Zinnias",
+        "excerpt":"A small card  ","categories": ["flowers"],
+        "tags": [],
+        "url": "/paintings/zinnias/",
         "teaser": null
       },]
