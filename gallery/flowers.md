@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: Flowers
 permalink: /gallery/flowers/
 ---

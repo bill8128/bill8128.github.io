@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: Birds & Insects
 permalink: /gallery/birds/
 ---

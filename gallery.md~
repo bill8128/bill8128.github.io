@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: Gallery
 permalink: /gallery/
 ---
@@ -11,14 +11,14 @@ permalink: /gallery/
 {% for painting in sorted_paintings %}
 
 {% assign filename = painting.image | replace: ".jpg", "" %}
-{% assign thumb = filename | append: "-thumb.jpg" %}
+{% assign thumbname = filename | append: "-thumb.jpg" %}
 
 
 <div class="painting-card">
 
 <a href="{{ painting.url }}">
 
-<img src="/assets/images/paintings/thumbs/{{ thumb }}"
+<img src="/assets/images/paintings/thumbs/{{ thumbname }}"
      alt="{{ painting.title }}">
 
 </a>

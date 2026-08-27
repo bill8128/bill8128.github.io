@@ -1,12 +1,12 @@
 ---
-title: Sweet Peas
+title: Sweet Peas in a Green Vase
 layout: painting
 image: sweet-peas.jpg
-date_added: 2026-08-05
-year: 2026
+date_added: 2026-08-27
+year: August 2026
 medium: Watercolour
-dimensions: 6 x 4 card
+dimensions: A4
 category: flowers
 ---
 
-A small card
+A larger attempt at Sweet Peas

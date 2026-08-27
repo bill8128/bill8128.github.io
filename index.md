@@ -6,8 +6,8 @@ header:
   overlay_image: /assets/images/site/header.jpg
   overlay_filter: 0.45
 
-excerpt: >
-  Landscape, flower and wildlife paintings inspired by the British countryside.
+excerpt: 
+  Landscape, flower and wildlife paintings inspired by the world around us.
 ---
 
 Choose a collection to explore.

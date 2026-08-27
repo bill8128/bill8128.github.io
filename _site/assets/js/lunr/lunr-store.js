@@ -1,4 +1,10 @@
 var store = [{
+        "title": "Bridge 62",
+        "excerpt":"Bridge 62 on the Leeds-Liverpool canal  ","categories": ["landscapes"],
+        "tags": [],
+        "url": "/paintings/bridge-62/",
+        "teaser": null
+      },{
         "title": "Chaffinch",
         "excerpt":"A first attempt at a chaffinch  ","categories": ["birds"],
         "tags": [],
@@ -41,10 +47,16 @@ var store = [{
         "url": "/paintings/rydal-hall-gardens/",
         "teaser": null
       },{
-        "title": "Sweet Peas",
-        "excerpt":"A small card  ","categories": ["flowers"],
+        "title": "Sweet Peas in a Green Vase",
+        "excerpt":"A larger attempt at Sweet Peas  ","categories": ["flowers"],
         "tags": [],
         "url": "/paintings/sweet-peas/",
+        "teaser": null
+      },{
+        "title": "Tulips and Hydrangeas",
+        "excerpt":"To make a card, Bromley’s practice paper was folded in two  ","categories": ["flowers"],
+        "tags": [],
+        "url": "/paintings/tulips-and-hydrangeas/",
         "teaser": null
       },{
         "title": "Vase of Flowers",
